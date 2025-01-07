@@ -1,0 +1,1 @@
+# it's a basic retail project
