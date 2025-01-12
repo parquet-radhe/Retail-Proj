@@ -50,7 +50,7 @@ pipeline {
             steps {
                 script {
                     // Deployment steps (e.g., deploy to a server or cloud)
-                    sh 'sshpass -p $LABS_PSW scp -o StrictHostKeyChecking=no -r retail_project.zip $LABS_USR@g02.itversity.com:/home/itv011246/retailproject'
+                    sh 'sshpass -p $LABS_PSW scp -o StrictHostKeyChecking=no -r retail_project.zip $LABS_USR@g02.itversity.com:/home/itv011346/retailproject'
                 }
             }
         }
